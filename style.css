@@ -1,4 +1,10 @@
 body{
 	background-color: blanchedalmond;
-	font-size: 35px;
+}
+
+#effets div{
+	background: red;
+	height: 100px;
+	margin: 2px;
+
 }
