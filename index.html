@@ -1,36 +1,111 @@
+
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>front-dev</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<title>Dev-front</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+        </script>
         <link href="style.css" rel="stylesheet">
-        <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-  		<script src="https://stackpath.bootstrap.com/bootstrap/4.4.1/css/bootstrap.min.css"></script>
-
-        
-    </head>
+	</head>
 	<body>
 		<div class="container">
 			<header class="row">
-				<h1 class="col-4">Ma première page</h1>
+				<h1 class="col-4">
+					Test netlify
+				</h1>
 				<nav class="col-8">
-					<a href="/">Accueil</a> | <a href="autre.hmtl"> Autre page </a>
-				</nav>		
+					<a href="/">Accueil</a> | <a href="autre.html">Autre page</a>
+				</nav>
 			</header>
 			<section class="row">
 				<div class="col-6">Ma première colonne</div>
 				<div class="col-6">Ma deuxième colonne</div>
 			</section>
-
-			<section class="row" id="effets">
+			
+			<section id="effets" class="row">
 				<div class="col-1"></div>
+			</section>
+			<a id="show" class="btn btn-outline-danger">Réapparition !</a>
+			<section id="test" class="row">
+				<div id="box1" class="col-3"></div>
+				<div id="box2" class="col-3"></div>
+				<div id="box3" class="col-3"></div>
+			</section>
+			<section id="animate" class="row">
+				<div class="col-2">
+					test
+				</div>
+				<div class="col-2">
+					test2
+				</div>
+				<div class="col-2">
+					test3
+				</div>
+			</section>
+			<section id="ecureuil" class="row">
+				<button id="no-alerte" class="col-3">NON</button>
+
+				<button id="plus" class="col-1 btn btn-outline-success">Ajouter</button>
+				<button id="moins" class="col-1 btn btn-outline-danger">Retirer</button>
+
+
+
+				<ul class="col-12">
+					<li>ma première ligne</li>
+					<li><a href="#">ligne 2</a></li>
+					<li>ligne 3</li>
+					<li><a href="#">ligne 4</a></li>
+					<li>ligne 5</li>
+					<li>ligne 6</li>
+				</ul>
+			</section>
+
+			<section class="row" id="toggle">
+				<button id="theToggle" class="col-1">Click me!</button>
+				<button id="plusGrand" class="col-2 btn btn-outline-danger taille">Plus grand</button>
+				<button id="plusPetit" class="col-2 btn btn-outline-danger taille">Plus petit</button>
+
+					<div id="maBoite" class="col-12">Ma belle boite ...</div>
+						<p class="col-12">Ceci est un paragraphe</p>
+						<p class="col-12">Ceci est un paragraphe</p>
+						<p class="col-12">Ceci est un paragraphe</p>
+						<p class="col-12">Ceci est un paragraphe</p>
+						<p class="col-12">Ceci est un paragraphe</p>
+						<p class="col-12">Ceci est un paragraphe</p>		
+			</section>
+
+			<section id="photos" class="row">
+				<nav class="col-2">
+					<ul>
+						<li><img src="https://i.picsum.photos/id/866/150/150.jpg"></li>
+						<li><img src="https://i.picsum.photos/id/784/150/150.jpg"></li>
+						<li><img src="https://i.picsum.photos/id/328/150/150.jpg?grayscale"></li>
+						<li><img src="https://i.picsum.photos/id/909/150/150.jpg?blur=5"></li>
+						<li><img src="https://i.picsum.photos/id/208/150/150.jpg?grayscale"></li>
+					</ul>
+				</nav>
+
+				<div class="col-10">
+					<img src="https://i.picsum.photos/id/866/640/360.jpg">
+					<img src="https://i.picsum.photos/id/784/640/360.jpg">
+					<img src="https://i.picsum.photos/id/328/640/360.jpg?grayscale">
+					<img src="https://i.picsum.photos/id/909/640/360.jpg?blur=5">
+					<img src="https://i.picsum.photos/id/208/640/360.jpg?grayscale">
+				</div>
 			</section>
 		</div>
 		<script src="monjs.js"></script>
 	</body>
 </html>
+
+
+
+
+
+
+
+
+

@@ -1,10 +1,87 @@
 body{
-	background-color: blanchedalmond;
+	background-color: darkgrey;
 }
 
 #effets div{
-	background: red;
+	background: black;
 	height: 100px;
 	margin: 2px;
-
+	margin-bottom: 20px;
 }
+
+#test div{
+	background: darkcyan;
+	height: 100px;
+	margin: 2px;
+	margin-top: 20px;
+}
+
+#animate div{
+	background: khaki;
+	height: 100px;
+	margin: 2px;
+}
+
+.alerte{
+	color: red;
+}
+
+#maBoite{
+	background: thistle;
+	height: 100px;
+	margin: 2px;
+}
+
+.highligth{
+	background-color: gold;
+}
+
+.bordure{
+	border: 5px solid black;
+}
+
+.gris{
+	background-color: grey;
+}
+
+
+#photos div img{
+	display: none;
+}
+
+#photos nav ul{
+	list-style: none;
+	padding: 0px;
+}
+
+#photos nav li{
+	margin-bottom: 10px;
+}
+
+#photos nav li img{
+	max-width: 100%;
+	height: auto;
+	filter: blur(1.2px);
+	filter: grayscale(10);
+}
+
+#photos nav li img:hover{
+	filter: blur(0);
+	filter: grayscale(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
